@@ -1,0 +1,122 @@
+/*COPRO PAGINA*/
+body{
+  box-sizing: border-box;
+  margin: auto;
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-position:;
+  background-size: cover;
+}
+
+/*IMMAGINE LOGO*/
+img{
+  width: 25%;
+  color: #30F500;
+}
+
+/*TITOLI (H1,H2,...)*/
+h1{
+    color: #47EB20;
+    font-family: verdana, sans-serif;
+    font-size: 31px;
+    font-weight: 300;
+}
+
+h2{
+    color: white;
+    font-family: verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h3{
+    color: white;
+    font-family: verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 8%;
+}
+
+/*CONTENITORI*/
+.container{
+  text-align: center;
+  margin: auto;
+}
+
+.contenitordark{
+  width: 80%;
+  height: 100%;
+  margin: 5%;
+  margin-left: 0.1%;
+  background: rgba(0, 0, 0, 0.4);   /*PERMETTE DI INSERIRE UN OPACITA' SOLO SULLO SFONDO*/
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+
+.container2{
+  margin-top: -3%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: -3%;
+}
+
+.containerbuttons{
+  width: auto;
+  background-color: #30F500;
+  padding: 1%;
+  border-radius: 3px;
+  margin-top: -1%;
+}
+
+.containerdescription{
+  color: white;
+  text-align: left;
+  margin-top: 1%;
+}
+
+div > span {
+  display: inline-block;
+}
+#checkbox{
+  display: inline-block;
+}
+
+/*INDIRIZZI*/
+.indirizzo{
+  margin-top: -3%;
+}
+.indirizzo > div{
+  display: inline-block;
+}
+
+/*STATO CARICA BATTERIE*/
+.statocarica{
+  font-family: verdana, sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+.barragino22{
+  background-color: #F7C34A;
+  width: 30%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.barramike24{
+  background-color: #30F500;
+  width: 40%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.barrafede154{
+  background-color: red;
+  width: 20%;
+  height: 30px;
+  border-radius: 5px;
+}
